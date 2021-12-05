@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package api.v1;
+
+option go_package = "github.com/rauf95/rauf/proto/api/v1;pb";
+
+service FibonacciService {
+  rpc Fibonacci (FibonacciRequest) returns (FibonacciResponse);
+}
+
+message FibonacciRequest {
+  int64 arg = 1;
+}
+
+message  FibonacciValue  {
+  int64 number = 1;
+  int64 value = 2;
+}
+
+message FibonacciResponse {
+  repeated FibonacciValue result = 1;
+}
