@@ -20,4 +20,5 @@
 
 ### gRPC
 Proto file (см. service.proto)
+
 `./api/v1/service.proto`
