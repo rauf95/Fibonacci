@@ -1,6 +1,6 @@
 # Fibonacci
 
-####Сбор Docker образа:
+#### Сбор Docker образа:
  `docker build -t rauf-test .`
 
 ####Запуск сервиса fibonacci в отдельном контейнере:
